@@ -1,9 +1,17 @@
-package = "lua-fp"
-version = "1.5-18"
+-- This file was automatically generated for the LuaDist project.
+
+package = "luafp"
+version = "1.5-20"
+-- LuaDist source
 source = {
-   url = "git://github.com/JesterXL/lua-fp",
-   tag = "v1.5.18"
+  tag = "1.5-20",
+  url = "git://github.com/LuaDist-testing/luafp.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/JesterXL/luafp",
+--    tag = "v1.5.20"
+-- }
 description = {
    summary = "Functional Programming and list comprehension helper functions for Lua.",
    detailed = [[
@@ -11,9 +19,9 @@ description = {
         Borrowed many array/list comprehensions from Lodash as well as various predicates.
         All functions that have more than 1 argument are curried by default.
 
-        API Documentation: https://jesterxl.github.io/lua-fp/doc/index.html
+        API Documentation: https://jesterxl.github.io/luafp/doc/index.html
    ]],
-   homepage = "https://github.com/JesterXL/lua-fp",
+   homepage = "https://github.com/JesterXL/luafp",
    license = "MIT"
 }
 dependencies = {
